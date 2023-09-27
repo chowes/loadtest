@@ -24,7 +24,7 @@ A parallel file system load test and batch file generator
 ## Example:
 
 ```
-go run stress.go \
+go run loadtest.go \
   --path test-dir \
   --num-writers 32 \
   --files-per-thread 32768 \
